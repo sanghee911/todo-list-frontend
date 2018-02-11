@@ -15,7 +15,7 @@ RUN npm install
 # Bundle app source
 COPY . .
 
-ENV TODO_BACKEND_URL 'http://localhost:8000/api/todo-list/'
+ENV TODO_BACKEND_URL 'http://web:8888/api/todo-list/'
 
 EXPOSE 8080
 
